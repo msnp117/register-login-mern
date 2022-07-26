@@ -14,7 +14,7 @@ app.get('/user/:id', controllers.getUserById)
 app.post('/register', controllers.register)
 app.post('/login', controllers.login)
 
-const PORT = 3000;
+const PORT = 4000;
 
 app.listen(PORT, () => {
   console.log(`Server funcionando en el puerto ${PORT}`);
